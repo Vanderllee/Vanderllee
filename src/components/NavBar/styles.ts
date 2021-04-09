@@ -8,6 +8,10 @@ export const Background = styled.div`
   position: relative;
   background-color: #272727;
   color: #fff;
+
+  a {
+    color: #fff;
+  }
 `;
 
 export const Container = styled.div`
@@ -66,10 +70,10 @@ export const MenuDrawer = styled.ul<MenuDrawerProps>`
     padding: 10px 0 10px 25px;
     border-bottom: solid 1px #737373;
     font-family: 'Anton', Arial, Helvetica, Sans-serif;
+  }
 
-    & + svg {
-      margin: 20px 0 0 25px;
-    }
+  svg:last-child {
+    margin: 20px 0 0 25px;
   }
 
   @media (max-width: 700px) {
