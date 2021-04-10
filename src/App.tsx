@@ -1,14 +1,13 @@
 import React from 'react';
 
 import Routes from './routes';
-import { GlobalStyle } from './styles/GlobalStyles';
+import { ThemeProvider } from './context/theme';
 
 const App: React.FC = () => {
   return (
-    <>
+    <ThemeProvider>
       <Routes />
-      <GlobalStyle />
-    </>
+    </ThemeProvider>
   );
 };
 export default App;

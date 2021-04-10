@@ -27,8 +27,12 @@ const NavBar: React.FC = () => {
         <FiMenu size={28} color="#fff" onClick={(): void => handleOpen()} />
         <ul>
           <FiSun size={28} color="#D4AE8B" />
-          <li>Cursos</li>
-          <li>Portfolio</li>
+          <Link to="cursos">
+            <li>Cursos</li>
+          </Link>
+          <Link to="portfolio">
+            <li>portfolio</li>
+          </Link>
           <Link to="contato">
             <li>Contato</li>
           </Link>
@@ -37,11 +41,16 @@ const NavBar: React.FC = () => {
       <MenuDrawer isOpen={open}>
         <FiX size={28} color="#fff" onClick={(): void => handleOpen()} />
         <ul>
-          <li>Cursos</li>
-          <li>Portfolio</li>
+          <Link to="cursos" onClick={(): void => handleOpen()}>
+            <li>Cursos</li>
+          </Link>
+          <Link to="portfolio" onClick={(): void => handleOpen()}>
+            <li>Portfolio</li>
+          </Link>
           <Link to="contato" onClick={(): void => handleOpen()}>
             <li>Contato</li>
           </Link>
+
           <FiSun size={28} color="#D4AE8B" />
         </ul>
       </MenuDrawer>
