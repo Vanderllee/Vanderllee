@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { FiSun, FiMenu, FiX } from 'react-icons/fi';
+import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import { Background, Container, MenuDrawer } from './styles';
