@@ -6,7 +6,7 @@ interface MenuDrawerProps {
 
 export const Background = styled.div`
   position: relative;
-  background-color: #272727;
+  background-color: #252525;
   color: #fff;
 
   a {
@@ -25,7 +25,7 @@ export const Container = styled.div`
   p {
     font-family: 'Anton', Arial, Helvetica, Sans-serif;
     font-size: 30px;
-    color: #bb9878;
+    color: #d2c7c1;
   }
   li {
     text-transform: uppercase;

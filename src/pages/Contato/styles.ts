@@ -36,6 +36,7 @@ export const Contact = styled.div`
   }
   img {
     margin-right: 40px;
+    border-radius: 60%;
   }
   @media (max-width: 700px) {
     img {
@@ -69,6 +70,10 @@ export const Form = styled.form<FormProps>`
     font-size: 16px;
   }
 
+  h1 {
+    color: #fff;
+  }
+
   input::placeholder,
   textarea::placeholder {
     color: #ababab;
@@ -90,9 +95,9 @@ export const Form = styled.form<FormProps>`
     text-transform: uppercase;
     font-size: 20px;
     border: 0;
-    border-radius: 6px;
+    border-radius: 10px;
     color: #fff;
-    background-color: #bb9878;
+    background-color: #d2c7c1;
     padding: 6px 14px;
     transition: background-color 200ms;
 
@@ -108,7 +113,7 @@ export const Form = styled.form<FormProps>`
           `}
 
     button:hover {
-      background-color: #d4ae8b;
+      background-color: #cfc798;
     }
 
     @media (max-width: 950px) {

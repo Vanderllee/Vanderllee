@@ -122,10 +122,10 @@ const Contato: React.FC = () => {
   return (
     <Container>
       <Contact>
-        <GrMail size={30} />
-        <img src={MinhaFoto} width={600} height={600} alt="minha imagem" />
+        <img src={MinhaFoto} width={170} height={170} alt="minha imagem" />
         <SocialMedia>
           <CopyToClipBoard>
+            <GrMail size={30} />
             <p id="clipboard">vanderllee@gmail.com</p>
           </CopyToClipBoard>
 

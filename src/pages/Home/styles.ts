@@ -5,6 +5,9 @@ export const Container = styled.div`
   margin: 0 auto;
   animation: loadAnimation;
   animation-duration: 500ms;
+  img {
+    border-radius: 60%;
+  }
   @media (max-width: 700px) {
     width: 90vw;
   }
@@ -18,6 +21,7 @@ export const Hello = styled.div`
   h1 {
     margin-left: 60px;
     font-size: 70px;
+    color: #fff;
   }
   @media (max-width: 450px) {
     margin-top: 80px;
@@ -33,6 +37,7 @@ export const Section = styled.div`
   margin-top: 70px;
   p {
     font-size: 30px;
+    color: #fff;
   }
   @media (max-width: 450px) {
     p {

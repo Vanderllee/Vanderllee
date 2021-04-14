@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: #777777;
+    background-color: #444;
     webkit-font-smoothing:antialiased !important;
   }
 

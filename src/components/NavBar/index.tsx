@@ -26,7 +26,6 @@ const NavBar: React.FC = () => {
         </Link>
         <FiMenu size={28} color="#fff" onClick={(): void => handleOpen()} />
         <ul>
-          <FiSun size={28} color="#D4AE8B" />
           <Link to="cursos">
             <li>Cursos</li>
           </Link>
@@ -50,8 +49,6 @@ const NavBar: React.FC = () => {
           <Link to="contato" onClick={(): void => handleOpen()}>
             <li>Contato</li>
           </Link>
-
-          <FiSun size={28} color="#D4AE8B" />
         </ul>
       </MenuDrawer>
     </Background>
