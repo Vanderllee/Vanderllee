@@ -4,7 +4,7 @@
   </a>
 
 <img 
-     src="https://api.daily.dev/devcards/df257ef6e28a4dde80eb2bc7a63d8795.png?r=t9p" 
+     src="https://nextjs.org/conf/tickets/oct21/Vanderllee?s=5" 
      width="400" 
      alt="Vanderllee JS's Dev Card"
 />
