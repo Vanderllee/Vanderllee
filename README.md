@@ -4,3 +4,5 @@
   </a>
 
 <a href="https://nextjs.org/conf/tickets/oct21/Vanderllee?s=5">Next.js Confe</a>
+
+<a href="https://nextjs.org/conf/tickets/oct22/Vanderllee">Next.js Confe</a>
